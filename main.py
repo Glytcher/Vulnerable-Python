@@ -19,7 +19,7 @@ execfile('key.py')
 
 FLAG = flag
 app.secret_key = key
-
+password = "jkS99lgg22"
 
 @app.route("/golem", methods=["GET", "POST"])
 def golem():
