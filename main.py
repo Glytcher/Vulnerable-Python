@@ -1,4 +1,5 @@
 import os
+import defusedxml
 
 from flask import (
     Flask,
