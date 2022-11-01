@@ -50,8 +50,6 @@ def golem():
 		{% % endblock % %}
 		''' % session['golem']
 
-        print
-
         session['golem'] = None
 
     return render_template_string(template)
