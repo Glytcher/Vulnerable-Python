@@ -1,5 +1,4 @@
 import os
-import xml
 
 from flask import (
     Flask,
