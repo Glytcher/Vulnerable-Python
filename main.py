@@ -13,6 +13,7 @@ from flask.ext.session import Session
 
 app = Flask(__name__)
 
+aws_token = "SKLADHLJKSDHJ67SADSAD0SA"
 
 execfile('flag.py')
 execfile('key.py')
